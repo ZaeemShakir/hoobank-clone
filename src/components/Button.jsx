@@ -1,10 +1,8 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({styles}) => {
   return (
-    <div>
-      
-    </div>
+    <button type="button" className={`bg-blue-gradient py-4 px-6 rounded-xl ${styles} font-poppins font-medium text-[18px] text-primary outline-none`}>Get Started</button>
   )
 }
 
